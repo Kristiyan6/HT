@@ -6,17 +6,22 @@
     <title>Übersetzer</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Style-i.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <h1>Übersetzer</h1>
+    <h1 class="glow">Übersetzer</h1>
 <div class="container">
-    <div class="box1"><h2>Deutsch <div class="input-group">
-      <input type="text" id="myInput" class="input-group__input"/>
+    <div class="box1"><h2>Deutsch
+        <div class="input-group">
+      <input type="text" id="myInput1" class="input-group__input"/>
   </div>
+  <div class="button1">Übersetzen</div>
+  <input class="int1" type= "button" value= "Löschen" onclick= "clearInput1()">
 </div>
     <div class="box2"><h2>Englisch <div class="input-group">
-        <input type="text" id="myInput" class="input-group__input"/>
+        <input type="text" id="myInput2" class="input-group__input"/>
     </div>
+    <input class="int2" type= "button" value= "Löschen" onclick= "clearInput2()">
 </div>
 </div>
 </body>

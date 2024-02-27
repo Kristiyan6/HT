@@ -1,4 +1,20 @@
-import * as deepl from 'deepl-node'
+let containingElement = document.querySelector('.button1');
 
-const  authKey  =  "f63c02c5-f056-..." ;
-const  translator  =  new  deepl . Übersetzer ( authKey );
+document.body.addEventListener('click', function( event ){
+	if( containingElement.contains( event.target ) )
+		alert("Hello World")
+});
+
+function clearInput1(){
+    var getValue= document.getElementById("myInput1");
+      if (getValue.value !="") {
+          getValue.value = "";
+      }
+}
+
+function clearInput2(){
+    var getValue= document.getElementById("myInput2");
+      if (getValue.value !="") {
+          getValue.value = "";
+      }
+}
