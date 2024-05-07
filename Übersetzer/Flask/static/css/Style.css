@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 90px;
+}
+.box1 {
+    width: 400px;
+    height: 300px;
+    background-image: linear-gradient(to top, transparent, rgb(186, 33, 94) 50%);
+    border-radius: 10%;
+}
+.box2 {
+    width: 400px;
+    height: 300px;
+    background-image: linear-gradient(to top, transparent, rgb(186, 33, 94) 50%);
+    border-radius: 10%;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+h2 {
+    text-align: center;
+}
+.button1 {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
+.button2 {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
+.int1 {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 108px;
+    top: 33px;
+    background-color:rgb(186, 33, 94);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.int2 {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 108px;
+    top: 30px;
+    background-color:rgb(186, 33, 94);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-image: url('../images/bg.jpg'); 
+    background-size: cover;
+}

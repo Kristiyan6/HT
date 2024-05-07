@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essen Bewertung</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Bewerte dein Essen</h1>
+    <br>
+    <br>
+    <br>
+    <div class="container2">
+        <div class="bewerte">
+            <div class="notize">
+                <div class="kreise">
+                    <div class="kreis1"></div>
+                    <div class="kreis2"></div>
+                    <div class="kreis3"></div>
+                </div>
+            </div>
+            <form>
+                <p>Trinkgeld Prozente:</p>
+                <li>Bei Geisteskrank: 12 Prozent</li>
+                <li>Bei Gut: 10 Prozent</li>
+                <li>Bei Nichts Besonderes: 7 Prozent</li>
+                <li>Bei Schlecht: 3 Prozent</li>
+                <li>Bei Sehr Schlecht: kein Trinkgeld</li>
+            </form>
+        </div>
+    
+        <div class="container">
+            <h2>Name des Restaurants:<input type="text" id="name_input"></h2> 
+            <h2>Ort des Restaurants:<input type="text" id="ort_input"></h2>
+            <h2>Bewertung: <select name="Bewertung" id="raiting">
+                                <option value="0"></option>
+                                <option value="1">Geisteskrank</option>
+                                <option value="2">Gut</option>
+                                <option value="3">Nichts Besonderes</option>
+                                <option value="4">Schlecht</option>
+                                <option value="5">Sehr Schlecht</option>
+                            </select>
+            </h2> 
+            <h2>Name des Beweters:<input type="text" id="name_bewerter"></h2>
+            <h2>Kosten:<input type="text" id="kosten"></h2> 
+            <h2>Trinkgeld:<output type="text" id="trinkgeld"></h2>
+        </div>
+        <button type="button" id="bnt1" onclick="berechne()">Berechne</button>
+    </div>
+</body>
+</html>

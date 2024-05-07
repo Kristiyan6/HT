@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+#name_input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 0px;
+}
+#ort_input {
+    width: 302px;
+    height: 50px;
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 42px;
+    border-radius: 6px;
+    border: 0px;
+}
+#raiting {
+    width: 310px;
+    height: 53px;
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 128px;
+    border-radius: 6px;
+    border: 0px;
+}
+#name_bewerter {
+     width: 300px;
+     height: 50px;
+     font-size: 20px;
+     margin: 16px;
+     margin-left: 49px;
+     border-radius: 6px;
+     border: 0px;
+}
+#kosten {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 175px;
+    border-radius: 6px;
+    border: 0px;
+}
+#trinkgeld {
+    font-size: 30px;
+    margin: 16px;
+    margin-left: 140px;
+}
+#bnt1 {
+    width: 300px;
+    height: 50px;
+    margin: 16px;
+    margin-left: 100px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 0px;
+}
+.container2 {
+    display: flex;
+    font-size: 25px;
+    /* justify-content: center; */
+    padding-left: 50px;
+}
+.notize {
+    width: 300px;
+    height: 80px;
+    background-color: aqua;
+    border-radius: 35px;
+    margin-left: 35px;
+}
+.bewerte {
+    padding-right: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+.kreise {
+    display: flex;
+    justify-content: space-around; 
+}
+.kreis1 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.kreis2 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.kreis3 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+body {
+    background-color: gray;
+}

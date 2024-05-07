@@ -1,0 +1,163 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 890px;
+}
+#words {
+    width: 1000px;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    font-size: 60px;
+}
+.counter {
+    width: 250px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+
+}
+.buttons {
+    padding-top: 40px;
+    padding-left: 380px;
+}
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFA12B;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #915100;
+    
+}
+button:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #915100;
+}
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    border: 1px solid #999999;
+    cursor: not-allowed;
+    box-shadow: 0px 0px 0px 0px #999999;
+}
+#underground {
+    width: 400px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    bottom: 650px;
+    left: 1020px;
+} 
+#wall {
+    width: 400px;
+    height: 7px;
+    transform: rotate(90deg);
+    background-color: black;
+    position: absolute;
+    right: 980px;
+    top: 440px;
+}
+#heaven {
+    width: 250px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    top: 240px;
+    right: 934px;
+}
+#hell {
+    width: 80px;
+    height: 7px;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 897px;
+    top: 280px;
+}
+#head {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 7px solid black;
+    background-color: transparent;
+    position: absolute;
+    right: 903px;
+    top: 320px;
+}
+#body {
+    width: 6px;
+    height: 130px;
+    background-color: black;
+    position: absolute;
+    right: 935px;
+    top: 390px;
+}
+#right_arm {
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(60deg);
+    position: absolute;
+    right: 905px;
+    top: 385px;
+}
+#left_arm {
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(300deg);
+    position: absolute;
+    right: 965px;
+    top: 386px;
+}
+#right_leg {
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(320deg);
+    position: absolute;
+    right: 914px;
+    top: 510px;
+}
+#left_leg {
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 963px;
+    top: 510px;
+}
+#dead {
+    display: flex;
+    gap: 13px;
+   position: absolute; 
+   right: 922px;
+   top: 342px;
+
+}
+#left_aye {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+#right_aye {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+body {
+    background-color: #ffcc8e;
+}
